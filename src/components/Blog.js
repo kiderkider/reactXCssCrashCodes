@@ -38,12 +38,33 @@ const Blog = () => {
 
       <section id="jumbo">
         <div className="container">
-          <h1>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque,
-            sapiente?
-          </h1>
+          <h1>Lorem ipsum dolor sit amet, csicing elit. Atque, sapiente?</h1>
         </div>
       </section>
+      <div className="container left-align">
+        <aside id="sidebar">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+            laboriosm fugiat eaque! Total aliquid voluptas amet debitis,
+          </p>
+        </aside>
+        <section id="main">
+          <h2>Section Title</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+            laboriosm labore voluptates fugiat eaque! Total aliquid voluptas
+            amet debitis, nulla sequi impedit corporis? Excepturi, perferendis
+            distinctio odio ad optio numquam!
+          </p>
+        </section>
+      </div>
+      <div id="pExample">
+        <span>Span 1</span>
+        <span>Span Two 1em spacing</span>
+      </div>
+      <footer id="main-footer">
+        <p>Copyright &copy; 2021 React X Css crash code Website</p>
+      </footer>
     </div>
   );
 };
